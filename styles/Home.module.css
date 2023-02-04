@@ -14,7 +14,7 @@
 
 /* Home Page */
 .HomeContainer {
-  height: 100vh;
+  height: 91vh;
   background-image: linear-gradient(rgba(95, 95, 95, 0.401), rgba(0, 0, 0, 0.5)), url(../public/homeBackground.png);
   background-size: cover;
   -webkit-background-size: cover;
@@ -73,7 +73,7 @@
 
 .homeModulesContainer {
   background: radial-gradient(79.57% 29.83% at 50% 70.17%, #FFFFFF 0%, #DEFFF3 100%);
-  height: 100vh;
+  height: 90vh;
 }
 
 .homeModulesContainer h1 {
@@ -322,4 +322,63 @@
   border-radius: 10px;
   font-size: 20px;
   box-shadow: 0px 0px 15px 0px #0000004D;
+}
+
+
+/* employee-handbook */
+
+.app{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flippableCardContainer{
+  height: 500px;
+  width: 300px;
+  perspective: 1000px;
+}
+.card{
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: 5px solid white;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.8);
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 1000ms;
+}
+ .card:hover{
+  transform: rotateY(180deg);
+} 
+.cardBack,.cardFront{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.cardBack{
+  background-color: green;
+}
+.cardFront{
+  background-color: #0FC381;
+  color: #ffffff;
+  transform: rotateY(180deg);
+}
+.flip-exit{
+transform: rotateY(0deg);
+}
+.flip-exit-active{
+  transform: rotateY(1800deg);
+  transition: tranfsorm 300ms;
+}
+.flip-exit-done{
+  transform: rotateY(1800deg);
+
 }

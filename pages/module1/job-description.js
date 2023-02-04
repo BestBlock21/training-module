@@ -12,7 +12,7 @@ const jobDescription = () => {
 
 
 <div>
-  <h1>Training Module 1 A. Job Description</h1>
+  <h1>Training Module 1 A Job Description</h1>
 </div>
 
 <div className={styles.jobDescriptionSectionsContainer}>

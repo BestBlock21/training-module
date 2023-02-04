@@ -11,7 +11,7 @@ const jobdescriptionvideo = () => {
  <div className={styles.jobDescriptionVideoContainer}>
 
  <div>
-   <h1>Let's Learn Through Video</h1>
+   <h1>Lets Learn Through Video</h1>
  </div>
 
  <div className={styles.videoContainer}>
