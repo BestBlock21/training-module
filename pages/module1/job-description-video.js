@@ -20,7 +20,7 @@ const jobdescriptionvideo = () => {
  </div>
 
  <div className={styles.NextChapterButContainer}>
-   <Link href='/module1/employee-handbook' ><button className={styles.NextChapterBut}>Next Chapter</button></Link>
+   <Link href='/module1/EmployeeHandbook' ><button className={styles.NextChapterBut}>Next Chapter</button></Link>
  </div>
 </div>
 </>

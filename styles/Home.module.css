@@ -349,9 +349,9 @@
   transform-style: preserve-3d;
   transition: transform 1000ms;
 }
- .card:hover{
+ /* .card:hover{
   transform: rotateY(180deg);
-} 
+}  */
 .cardBack,.cardFront{
   height: 100%;
   width: 100%;

@@ -8,7 +8,7 @@ const employeeHandbook = () => {
   const [ShowFront,SetShowFront] = useState(false)
   return (
     <>
-<div className= {styles.app}>
+ <div className= {styles.app}>
 <div className= {styles.flippableCardContainer}>
   <CSSTransition in = {ShowFront}
   timeout = {300} 
@@ -19,7 +19,7 @@ SetShowFront((v)=>!v);
   </CSSTransition>
 
 </div>
-</div>
+</div> 
     </>
   )
 }
