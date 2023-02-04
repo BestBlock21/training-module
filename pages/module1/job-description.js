@@ -21,7 +21,7 @@ const jobDescription = () => {
     <div className={styles.flipcard}>
       <div className={styles.flipcardinner}>
         <div className={styles.flipcardfront}>
-          <Image src='/responsibility 1.png' width={180} height={180} className={styles.jobDescriptionSectionImg} />
+          <Image src='/responsibility 1.png' width={180} height={180} className={styles.jobDescriptionSectionImg} alt = 'jdImg' />
         </div>
         <div className={styles.flipcardback}>
           
